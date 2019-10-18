@@ -907,7 +907,11 @@ body {
 	cursor: pointer;
 	border: 1px solid transparent;
 	box-shadow: none;
- 
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;    
+	width: 15px;
+	height: 15px;
 }
 .checkbox:before {
 	-webkit-transition: -webkit-transform 0.4s cubic-bezier(0.45,  1.8,  0.5,  0.75);
